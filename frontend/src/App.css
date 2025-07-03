@@ -1,0 +1,136 @@
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.feature-box {
+  transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Dark and Light Mode */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Signup Card */
+.signup-card {
+  transition: all 0.3s ease;
+}
+
+.signup-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Gradient Buttons */
+.btn-light-gradient {
+  background: linear-gradient(135deg, #007bff, #00b4db);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-light-gradient:hover {
+  background: linear-gradient(135deg, #0056b3, #008bb0);
+  color: white;
+}
+
+.btn-dark-gradient {
+  background: linear-gradient(135deg, #343a40, #495057);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-dark-gradient:hover {
+  background: linear-gradient(135deg, #212529, #343a40);
+  color: white;
+}
+
+/* Animation for Success Message */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate__animated.animate__fadeIn {
+  animation: fadeIn 0.5s ease-in;
+}
+/* Dark and Light Mode */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Signup Card */
+.signup-card {
+  transition: all 0.3s ease;
+}
+
+/* Gradient Buttons */
+.btn-light-gradient {
+  background: linear-gradient(135deg, #007bff, #00b4db);
+  color: white;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn-light-gradient:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0056b3, #008bb0);
+}
+
+.btn-dark-gradient {
+  background: linear-gradient(135deg, #343a40, #495057);
+  color: white;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn-dark-gradient:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #212529, #343a40);
+}
+
+/* Password Strength */
+.password-strength {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.strength-bar {
+  transition: background-color 0.3s ease;
+}
+
+/* Form Input Focus */
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-color: #007bff;
+}
+
+/* Social Buttons */
+.btn-outline-danger:hover,
+.btn-outline-primary:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
